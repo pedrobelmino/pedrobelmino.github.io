@@ -10,6 +10,8 @@
             background-color: #f4f4f4;
             margin: 0;
             padding: 0;
+            line-height: 1.6;
+            color: #333;
         }
 
         header {
@@ -17,39 +19,52 @@
             color: #fff;
             text-align: center;
             padding: 20px;
+            margin-bottom: 20px;
         }
 
-        h1 {
-            font-size: 24px;
-        }
-
-        #github-link {
-            font-size: 18px;
-            color: whitesmoke;
+        h1, h2 {
+            margin-bottom: 10px;
         }
 
         #content {
-            margin: 20px;
+            margin: 0 auto;
+            max-width: 800px;
+            padding: 20px;
         }
 
         p {
-            font-size: 16px;
+            margin-bottom: 10px;
         }
 
-        a{
-            color: #333;
+        ul {
+            list-style-type: none;
+            padding-left: 20px;
+            margin-bottom: 20px;
+        }
+
+        li {
+            margin-bottom: 5px;
+        }
+
+        a {
+            color: #007bff;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
         }
     </style>
 </head>
 <body>
     <header>
         <h1>Pedro Belmino - atuação em TI</h1>
-        
+        <p><a id="github-link" href="https://github.com/pedrobelmino" target="_blank">Meu GitHub</a></p>
     </header>
 
     <div id="content">
         <h2>Sobre mim</h2>
-        <p>Eu sou um entusiasta de tecnologia apaixonado por linux, programação, devops, arquitetura de software, cloud e containers.</p>
+        <p>Eu sou um entusiasta de tecnologia apaixonado por Linux, programação, DevOps, arquitetura de software, cloud e containers.</p>
         
         <h2>Acadêmico</h2>
         <ul>
@@ -69,7 +84,7 @@
             </ul>
             <li>Arquitetura</li>
             <ul>
-                <li><a target="_blank" href="https://github.com/pedrobelmino/chaos-monkey-rabbitmq-sboot">Estudo sobre Chaos Monkey(em andamento) </a></li>
+                <li><a target="_blank" href="https://github.com/pedrobelmino/chaos-monkey-rabbitmq-sboot">Estudo sobre Chaos Monkey (em andamento)</a></li>
                 <li><a target="_blank" href="https://github.com/pedrobelmino/axon-quick-start-bank">Event Sourcing com Axon Framework</a></li>
             </ul>
             <li>Containers</li>
@@ -96,6 +111,10 @@
                 <li><a target="_blank" href="https://github.com/pedrobelmino/springboot-gradle-redis-keys-feature">Redis - Acesso ao cache por Keys*</a></li>
 
             </ul>
+            <li>Processamento batch</li>
+            <ul>
+                <li><a target="_blank" href="https://github.com/pedrobelmino/1brc_springbatch">Spring Batch, Java 21 e Virtual Threads</a></li>
+            </ul>
             <li>Móvel</li>
             <ul>
                 <li><a target="_blank" href="https://github.com/pedrobelmino/pokedex-flutter">Flutter Pokedex(estudo retomado)</a></li>
@@ -112,15 +131,15 @@
             
         </ul>
 
-        <h2>PodCasts</h2>
+        <h2>Podcasts</h2>
         <ul>
             <li>Carreira Java</li>
             <ul>
-                <li><a target="_blank" href="https://www.youtube.com/live/-CxKd3eVC-E?si=UvgvFZwnb7jdPHzh">18/10/2023 - Mais Pra Ti</a></li>        
+                <li><a target="_blank" href="https://www.youtube.com/live/-CxKd3eVC-E?si=UvgvFZwnb7jdPHzh">18/10/2023 - Mais Pra Ti</a></li>       
+                <li><a target="_blank" href="https://www.youtube.com/watch?v=KjhyKADEzZA&lc=Ugz0Q-xsXASF0gPAFP14AaABAg">10/10/2024 - Mais Pra Ti</a></li>  
             </ul>
             
         </ul>
     </div>
 </body>
 </html>
-
