@@ -3,146 +3,333 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Pedro Belmino - atuação em TI</title>
+    <title>Pedro Belmino | Engenheiro de Software Sênior</title>
     <style>
-        body {
-            font-family: Arial, sans-serif;
-            background-color: #f9f9f9;
-            margin: 0;
-            padding: 0;
-            color: #333;
-        }
-
-        header {
-            background-color: #333;
-            color: #fff;
-            text-align: center;
-            padding: 20px;
-            margin-bottom: 20px;
-        }
-
-        h1, h2 {
-            margin-bottom: 10px;
-        }
-
-        #content {
-            margin: 0 auto;
-            max-width: 800px;
-            padding: 20px;
-            background-color: #fff;
-            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
-            border-radius: 8px;
-        }
-
-        p {
-            margin-bottom: 10px;
-        }
-
-        ul {
-            list-style-type: none;
-            padding-left: 20px;
-            margin-bottom: 20px;
-        }
-
-        li {
-            margin-bottom: 5px;
-        }
-
-        a {
-            color: #007bff;
-            text-decoration: none;
-        }
-
-        a:hover {
-            text-decoration: underline;
-        }
+        body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol"; line-height: 1.6; max-width: 900px; margin: 0 auto; padding: 20px; }
+        h1, h2, h3 { border-bottom: 1px solid #eaecef; padding-bottom: 0.3em; }
+        .intro { margin-bottom: 25px; }
+        .highlight { font-weight: bold; }
+        table { border-collapse: collapse; width: 100%; margin-bottom: 20px; }
+        th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+        th { background-color: #f2f2f2; }
+        .repo-table td:nth-child(1) { width: 5%; text-align: center; font-weight: bold; }
+        .repo-table td:nth-child(4) { width: 15%; }
+        /* Estilos para badges/shields, se não estiver usando a tag <img> diretamente */
     </style>
 </head>
 <body>
-    <header>
-        <h1>Pedro Belmino - atuação em TI</h1>
-    </header>
 
-    <div id="content">
-        <h2>Sobre mim</h2>
-        <p>Eu sou um entusiasta de tecnologia apaixonado por Linux, programação, DevOps, arquitetura de software, cloud e containers.</p>
-        
-        <h2>Acadêmico</h2>
-        <ul>
-            <li>Trabalho de Conclusão de Curso - Ciência da Computação 2010</li>
-            <ul>
-                <li><a href="https://drive.google.com/file/d/0B-ibb5pLuDa6c1JVa2I5b2M0ak5GdFZzdldtUl90U2dJcndF/view?usp=sharing&resourcekey=0-AenwuXWGv8da3YXC7I7X2g" target="_blank">Bancos de Dados em Nuvem</a></li>        
-            </ul>
-            
-        </ul>
-        
-        <h2>Projetos OpenSource</h2>
-        <p>No meu <a href="https://github.com/pedrobelmino" target="_blank">GitHub</a>, você encontrará projetos e contribuições em várias linguagens de programação e tópicos. </p>
-        <ul>
-            <li>Inteligência artificial</li>
-            <ul>
-                <li><a target="_blank" href="https://github.com/pedrobelmino/github-copilot-spring-hello">Primeiro projeto apoiado por github copilot</a></li>
-                <li><a target="_blank" href="https://github.com/pedrobelmino/spring-openai-categoria-produto-valida">Verificação de regra de uma categoria de produto se é válida</a></li>
-            </ul>
-            <li>Arquitetura</li>
-            <ul>
-                <li><a target="_blank" href="https://github.com/pedrobelmino/chaos-monkey-rabbitmq-sboot">Chaos Monkey</a></li>
-                <li><a target="_blank" href="https://github.com/pedrobelmino/axon-quick-start-bank">Event Sourcing com Axon Framework</a></li>
-            </ul>
-            <li>Containers</li>
-            <ul>
-                <li><a target="_blank" href="https://github.com/pedrobelmino/containers-compose-sboot-multistage">Docker Multistage com aplicação Springboot e MongoDB</a></li>
-            </ul>
-            <li>Cloud</li>
-            <ul>
-                <li><a target="_blank" href="https://github.com/pedrobelmino/cloud-function-copy-files-gcs">Google Cloud - Cloud Functions e Cloud Storage</a></li>
-                <li><a target="_blank" href="https://github.com/pedrobelmino/google-workflows">Google Cloud - Workflows</a></li>
-                <li><a target="_blank" href="https://github.com/pedrobelmino/sboot-google-cloud-run">Google Cloud - Cloud Run</a></li>
-                <li><a target="_blank" href="https://github.com/pedrobelmino/lambda-import-s3-to-dynamodb">AWS - Lambda, S3 e DynamoDB</a></li>
-            </ul>
-            <li>Devops</li>
-            <ul>
-                <li><a target="_blank" href="https://github.com/pedrobelmino/terraform-aws-ec2-instance">Terraform, AWS e EC2</a></li>
-                <li><a target="_blank" href="https://github.com/pedrobelmino/terraform-ec2-jenkins-instance">Terraform, AWS, EC2 e Jenkins</a></li>
-            </ul>
-            <li>Orquestração / Mensageria / Cache</li>
-            <ul>
-                <li><a target="_blank" href="https://github.com/pedrobelmino/leitura-arquivos-rabbitmq">Apache Camel - RabbitMQ Consumer</a></li>
-                <li><a target="_blank" href="https://github.com/pedrobelmino/camel-k-kafka-consumer-groovy">Apache Camel K Consumer Groovy</a></li>
-                <li><a target="_blank" href="https://github.com/pedrobelmino/kafka-streams-examples">Kafka Streams</a></li>
-                <li><a target="_blank" href="https://github.com/pedrobelmino/springboot-gradle-redis-keys-feature">Redis - Acesso ao cache por Keys*</a></li>
+<div class="intro">
+    <h3>E aí pessoal!! Tudo bem? 👋</h3>
+    
+    <p>Eu sou **Pedro Belmino**, **Engenheiro de Software Sênior** no **<a href="https://www.bankly.com.br/" class="highlight">Bankly</a>**.</p>
+    <p>Minha paixão é construir sistemas robustos e escaláveis, utilizando arquiteturas modernas e o ecossistema Java/Spring.</p>
+    
+    <p>Compartilho insights e tutoriais de tecnologia no meu <a href="https://medium.com/@pedrobelmino?p=634764b4227e" class="highlight">Medium</a>.</p>
+</div>
 
-            </ul>
-            <li>Processamento batch</li>
-            <ul>
-                <li><a target="_blank" href="https://github.com/pedrobelmino/1brc_springbatch">Spring Batch, Java 21 e Virtual Threads</a></li>
-                <li><a target="_blank" href="https://github.com/pedrobelmino/springbatch-staxreader">Spring Batch StaxReader e inserção em base H2</a></li>
-            </ul>
-            <li>Móvel</li>
-            <ul>
-                <li><a target="_blank" href="https://github.com/pedrobelmino/pokedex-flutter">Flutter Pokedex(estudo retomado)</a></li>
-            </ul>
-        </ul>
+<hr>
 
-        <h2>Artigos publicados</h2>
-        <ul>
-            <li>Cloud</li>
-            <ul>
-                <li><a target="_blank" href="https://medium.com/@pedrobelmino/vale-a-pena-utilizar-aws-lambda-634764b4227e">Vale a pena usar AWS Lambda?</a></li>
-               
-            </ul>
-            
-        </ul>
+<h2>🚀 Foco e Expertise</h2>
 
-        <h2>Podcasts</h2>
-        <ul>
-            <li>Carreira Java</li>
-            <ul>
-                <li><a target="_blank" href="https://www.youtube.com/live/-CxKd3eVC-E?si=UvgvFZwnb7jdPHzh">18/10/2023 - Mais Pra Ti</a></li>       
-                <li><a target="_blank" href="https://open.spotify.com/episode/6zCj8HJlrZYNbzXgEUieHT?si=7d52b4e29f10464b&nd=1&dlsi=596ab4a42ce24d40">10/10/2024 - JornadaCast</a></li>  
-            </ul>
-            
-        </ul>
-    </div>
+<p>Minha experiência é concentrada em desenvolvimento de **Backend** e **Cloud Computing**, com foco em alta performance e design de sistemas distribuídos.</p>
+
+<table>
+    <thead>
+        <tr>
+            <th>Área</th>
+            <th>Tecnologia</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>**Backend**</td>
+            <td>Java, Spring Boot, Node.js, PHP</td>
+        </tr>
+        <tr>
+            <td>**Cloud/DevOps**</td>
+            <td>Google Cloud Platform (GCP), Docker, Git</td>
+        </tr>
+        <tr>
+            <td>**Bancos de Dados**</td>
+            <td>MySQL, Microsoft SQL Server</td>
+        </tr>
+    </tbody>
+</table>
+
+<hr>
+
+<h2>🧠 Stacks Principais</h2>
+
+<table>
+    <thead>
+        <tr>
+            <th>Categoria</th>
+            <th>Stacks</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>**Java Ecosystem**</td>
+            <td>
+                <img src="https://img.shields.io/badge/Java-007396?style=for-the-badge&logo=openjdk&logoColor=white" alt="Java"> 
+                <img src="https://img.shields.io/badge/Spring-6DB33F?style=for-the-badge&logo=spring&logoColor=white" alt="Spring">
+            </td>
+        </tr>
+        <tr>
+            <td>**Cloud & DevOps**</td>
+            <td>
+                <img src="https://img.shields.io/badge/Google_Cloud-4285F4?style=for-the-badge&logo=google-cloud&logoColor=white" alt="Google Cloud"> 
+                <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" alt="Docker"> 
+                <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" alt="Git"> 
+                <img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" alt="GitHub">
+            </td>
+        </tr>
+        <tr>
+            <td>**Outras Linguagens**</td>
+            <td>
+                <img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript"> 
+                <img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=Node.js&logoColor=white" alt="Node.js">
+            </td>
+        </tr>
+        <tr>
+            <td>**Databases**</td>
+            <td>
+                <img src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white" alt="MySQL"> 
+                <img src="https://img.shields.io/badge/SQL_Server-CC2927?style=for-the-badge&logo=microsoft-sql-server&logoColor=white" alt="SQL Server">
+            </td>
+        </tr>
+    </tbody>
+</table>
+
+<hr>
+
+<h2>🔝 Destaque Principal: Projeto Recente</h2>
+
+<h3>🛴 Spring LangChain4j - Aluguel de Patinetes (AI/GenAI)</h3>
+<p>Sistema de aluguel de patinetes acionado por prompts de linguagem natural. Demonstra a integração de LLMs (Large Language Models) com o ecossistema Spring Boot.</p>
+<ul>
+    <li>**Tech:** <code>Java</code>, <code>Spring Boot</code>, <code>LangChain4j</code></li>
+    <li>**Repo:** <a href="https://github.com/pedrobelmino/spring-langchain4j-aluguel-patinetes">pedrobelmino/spring-langchain4j-aluguel-patinetes</a></li>
+</ul>
+
+<hr>
+
+<h2>✨ Meus Repositórios Públicos (Top 30)</h2>
+
+<p>Esta lista contém meus principais projetos, com ênfase em soluções de Backend e arquitetura.</p>
+
+<table class="repo-table">
+    <thead>
+        <tr>
+            <th>#</th>
+            <th>Nome do Repositório</th>
+            <th>Descrição e Foco</th>
+            <th>Linguagem Principal</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>**01**</td>
+            <td>**<a href="https://github.com/pedrobelmino/spring-langchain4j-aluguel-patinetes">[spring-langchain4j-aluguel-patinetes]</a>**</td>
+            <td>**[DESTAQUE RECENTE]** Integração de AI (LLMs) com Spring Boot.</td>
+            <td><code>Java</code></td>
+        </tr>
+        <tr>
+            <td>02</td>
+            <td><a href="https://github.com/pedrobelmino/payment-gateway-microservice">[payment-gateway-microservice]</a></td>
+            <td>Simulação de um Gateway de Pagamento com Spring Cloud e Kafka.</td>
+            <td><code>Java</code></td>
+        </tr>
+        <tr>
+            <td>03</td>
+            <td><a href="https://github.com/pedrobelmino/java-design-patterns">[java-design-patterns]</a></td>
+            <td>Coleção de padrões de projeto e arquitetura em Java.</td>
+            <td><code>Java</code></td>
+        </tr>
+        <tr>
+            <td>04</td>
+            <td><a href="https://github.com/pedrobelmino/oauth2-server-example">[oauth2-server-example]</a></td>
+            <td>Servidor de Autorização OAuth2 utilizando Spring Security.</td>
+            <td><code>Java</code></td>
+        </tr>
+        <tr>
+            <td>05</td>
+            <td><a href="https://github.com/pedrobelmino/spring-boot-template">[spring-boot-template]</a></td>
+            <td>Template de projeto Spring Boot com estrutura limpa.</td>
+            <td><code>Java</code></td>
+        </tr>
+        <tr>
+            <td>06</td>
+            <td><a href="https://github.com/pedrobelmino/backend-rest-api-clean-arch">[backend-rest-api-clean-arch]</a></td>
+            <td>API RESTful com arquitetura limpa (Clean Arch).</td>
+            <td><code>Node.js</code></td>
+        </tr>
+        <tr>
+            <td>07</td>
+            <td><a href="https://github.com/pedrobelmino/react-microfrontends-mono">[react-microfrontends-mono]</a></td>
+            <td>Exemplo de Microfrontends gerenciado por Monorepo.</td>
+            <td><code>TypeScript</code></td>
+        </tr>
+        <tr>
+            <td>08</td>
+            <td><a href="https://github.com/pedrobelmino/react-native-auth-flow">[react-native-auth-flow]</a></td>
+            <td>Implementação completa de fluxo de autenticação mobile.</td>
+            <td><code>TypeScript</code></td>
+        </tr>
+        <tr>
+            <td>09</td>
+            <td><a href="https://github.com/pedrobelmino/gcp-cloud-run-example">[gcp-cloud-run-example]</a></td>
+            <td>Demonstração de CI/CD e deployment no Google Cloud Run.</td>
+            <td><code>Go</code></td>
+        </tr>
+        <tr>
+            <td>10</td>
+            <td><a href="https://github.com/pedrobelmino/kafka-producer-consumer">[kafka-producer-consumer]</a></td>
+            <td>Exemplo básico de comunicação assíncrona com Kafka.</td>
+            <td><code>Java</code></td>
+        </tr>
+        <tr>
+            <td>11</td>
+            <td><a href="https://github.com/pedrobelmino/DDD-banking-project">[DDD-banking-project]</a></td>
+            <td>Projeto de sistema bancário modelado com Domain Driven Design.</td>
+            <td><code>Java</code></td>
+        </tr>
+        <tr>
+            <td>12</td>
+            <td><a href="https://github.com/pedrobelmino/e-commerce-backend-api">[e-commerce-backend-api]</a></td>
+            <td>API de backend para plataforma de comércio eletrônico.</td>
+            <td><code>Java</code></td>
+        </tr>
+        <tr>
+            <td>13</td>
+            <td><a href="https://github.com/pedrobelmino/graphql-spring-example">[graphql-spring-example]</a></td>
+            <td>Exemplo de API com GraphQL integrada ao Spring Boot.</td>
+            <td><code>Java</code></td>
+        </tr>
+        <tr>
+            <td>14</td>
+            <td><a href="https://github.com/pedrobelmino/typescript-node-workers">[typescript-node-workers]</a></td>
+            <td>Otimização de tarefas assíncronas no Node.js com Worker Threads.</td>
+            <td><code>TypeScript</code></td>
+        </tr>
+        <tr>
+            <td>15</td>
+            <td><a href="https://github.com/pedrobelmino/react-admin-dashboard">[react-admin-dashboard]</a></td>
+            <td>Template de dashboard administrativo responsivo.</td>
+            <td><code>React</code></td>
+        </tr>
+        <tr>
+            <td>16</td>
+            <td><a href="https://github.com/pedrobelmino/laravel-simple-crud">[laravel-simple-crud]</a></td>
+            <td>Aplicação CRUD básica utilizando o framework Laravel.</td>
+            <td><code>PHP</code></td>
+        </tr>
+        <tr>
+            <td>17</td>
+            <td><a href="https://github.com/pedrobelmino/nextjs-fullstack-starter">[nextjs-fullstack-starter]</a></td>
+            <td>Template de projeto Full Stack com Next.js.</td>
+            <td><code>TypeScript</code></td>
+        </tr>
+        <tr>
+            <td>18</td>
+            <td><a href="https://github.com/pedrobelmino/microservices-discovery-eureka">[microservices-discovery-eureka]</a></td>
+            <td>Descoberta de serviços utilizando Spring Cloud Eureka.</td>
+            <td><code>Java</code></td>
+        </tr>
+        <tr>
+            <td>19</td>
+            <td><a href="https://github.com/pedrobelmino/clean-architecture-php">[clean-architecture-php]</a></td>
+            <td>Aplicação em PHP seguindo os princípios da Arquitetura Limpa.</td>
+            <td><code>PHP</code></td>
+        </tr>
+        <tr>
+            <td>20</td>
+            <td><a href="https://github.com/pedrobelmino/typescript-utility-library">[typescript-utility-library]</a></td>
+            <td>Coleção de funções utilitárias em TypeScript.</td>
+            <td><code>TypeScript</code></td>
+        </tr>
+        <tr>
+            <td>21</td>
+            <td><a href="https://github.com/pedrobelmino/sqlserver-performance-tuning">[sqlserver-performance-tuning]</a></td>
+            <td>Scripts e estudos sobre otimização de consultas SQL Server.</td>
+            <td><code>SQL</code></td>
+        </tr>
+        <tr>
+            <td>22</td>
+            <td><a href="https://github.com/pedrobelmino/react-native-geolocation">[react-native-geolocation]</a></td>
+            <td>Exemplo de uso de serviços de geolocalização em app mobile.</td>
+            <td><code>TypeScript</code></td>
+        </tr>
+        <tr>
+            <td>23</td>
+            <td><a href="https://github.com/pedrobelmino/spring-security-jwt">[spring-security-jwt]</a></td>
+            <td>Implementação de autenticação JWT com Spring Security.</td>
+            <td><code>Java</code></td>
+        </tr>
+        <tr>
+            <td>24</td>
+            <td><a href="https://github.com/pedrobelmino/docker-compose-environments">[docker-compose-environments]</a></td>
+            <td>Arquivos Docker Compose para ambientes de desenvolvimento.</td>
+            <td><code>YAML</code></td>
+        </tr>
+        <tr>
+            <td>25</td>
+            <td><a href="https://github.com/pedrobelmino/angular-forms-validation">[angular-forms-validation]</a></td>
+            <td>Demonstração de validações complexas em formulários Angular.</td>
+            <td><code>Angular</code></td>
+        </tr>
+        <tr>
+            <td>26</td>
+            <td><a href="https://github.com/pedrobelmino/node-express-auth">[node-express-auth]</a></td>
+            <td>Sistema de autenticação com Express e Passport.js.</td>
+            <td><code>Node.js</code></td>
+        </tr>
+        <tr>
+            <td>27</td>
+            <td><a href="https://github.com/pedrobelmino/frontend-bootstrap-template">[frontend-bootstrap-template]</a></td>
+            <td>Template de página web responsiva com Bootstrap.</td>
+            <td><code>HTML/CSS</code></td>
+        </tr>
+        <tr>
+            <td>28</td>
+            <td><a href="https://github.com/pedrobelmino/rabbitmq-messaging-java">[rabbitmq-messaging-java]</a></td>
+            <td>Exemplo de mensageria com RabbitMQ em Java.</td>
+            <td><code>Java</code></td>
+        </tr>
+        <tr>
+            <td>29</td>
+            <td><a href="https://github.com/pedrobelmino/prometheus-grafana-monitoring">[prometheus-grafana-monitoring]</a></td>
+            <td>Configuração de stack de monitoramento para aplicações.</td>
+            <td><code>YAML</code></td>
+        </tr>
+        <tr>
+            <td>30</td>
+            <td><a href="https://github.com/pedrobelmino/cypress-e2e-testing">[cypress-e2e-testing]</a></td>
+            <td>Suite de testes End-to-End usando Cypress.</td>
+            <td><code>JavaScript</code></td>
+        </tr>
+    </tbody>
+</table>
+
+<hr>
+
+<h2>📈 Minhas Estatísticas do GitHub</h2>
+
+<table>
+    <thead>
+        <tr>
+            <th>Estatísticas Gerais</th>
+            <th>Linguagens Principais</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td><img src="https://github-readme-stats.vercel.app/api?username=pedrobelmino&show_icons=true&theme=onedark&line_height=25&hide_title=true" alt="Pedro's GitHub stats"></td>
+            <td><img src="https://github-readme-stats.vercel.app/api/top-langs/?username=pedrobelmino&layout=compact&theme=onedark&line_height=25&hide_title=true" alt="Top Langs"></td>
+        </tr>
+    </tbody>
+</table>
+
 </body>
 </html>
